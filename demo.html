@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>loading</title>
+<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="js/loading.js"></script>
+<link rel="stylesheet" type="text/css" href="css/loading.css"/>
+<link rel="stylesheet" type="text/css" href="css/demo.css"/>
+ <script type="text/javascript">
+    $(document).ready(function(){
+
+      $("#btn_loading").click(function(){
+        $(".loading").loading({
+          "background":"#FFFFF3",
+          "opacity":"0.8",
+          "showhide":"show"
+        });
+
+      });
+
+      $(".loading").click(function(){
+        $(".loading").loading({
+          "showhide":"hide"
+        })
+      });
+        
+    });
+ </script>
+</head>
+<body>
+  <br/><br/>
+  <h3>页面加载loading展示demo</h3>
+  <button class="btn_base" id="btn_loading">点击显示页面加载</button>
+  <div class="loading">
+  </div>
+</body>
+</html>

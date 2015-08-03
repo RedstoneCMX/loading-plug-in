@@ -1,0 +1,17 @@
+@CHARSET "UTF-8";
+body{
+	text-align: center;
+}
+.btn_base{
+	width: 120px;
+	height: 50px;
+	background: #00b7ee;
+	border-radius: 2px;
+	border: none;
+	color: #FFFFFF;
+	font-size: 13px;
+	cursor: pointer;
+}
+.btn_base:hover{
+	background: #3498db;
+}

@@ -1,0 +1,54 @@
+@CHARSET "UTF-8";
+.left{
+	width:15px;
+	height: 15px;
+	position: absolute;
+	border-radius: 50%;
+	background: #FF0033;
+	left: 10px;
+	animation: loading infinite 1s linear alternate;
+	-webkit-animation:loading infinite 1s linear alternate;
+}
+.center{
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	border-radius: 50%;
+	background: #0066CC;
+	left: 50px;
+}
+.right{
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	border-radius: 50%;
+	background: #FFCC00;
+	left: 90px;
+	animation: loading2 infinite 1s linear alternate;
+	-webkit-animation: loading2 infinite 1s linear alternate;
+}
+
+@keyframes loading
+{
+	from {left: 10px;}
+	to {left: 90px;}
+}
+
+@-webkit-keyframes loading
+{
+	from {left: 10px;}
+	to {left: 90px;}
+}
+
+
+@keyframes loading2
+{
+	from {left: 90px;}
+	to {left: 10px;}
+}
+
+@-webkit-keyframes loading2
+{
+	from {left: 90px;}
+	to {left: 10px;}
+}

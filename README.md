@@ -38,3 +38,6 @@ $(".loading").loading({
 ![demo效果](https://github.com/RedstoneCMX/loading-plug-in/blob/master/showimages/show2.png)
 ![demo效果](https://github.com/RedstoneCMX/loading-plug-in/blob/master/showimages/show3.png)
 ![demo效果](https://github.com/RedstoneCMX/loading-plug-in/blob/master/showimages/show4.png)
+##注
+请下载本插件，直接打开demo.html即可看到展示效果。功能较单一，并且本人能力水平有限，如有任何问题和意见，请联系我，期待和你的交流~
+![我的名片](https://github.com/RedstoneCMX/loading-plug-in/blob/master/myphoto/myphoto.jpg)

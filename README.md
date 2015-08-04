@@ -6,7 +6,7 @@
 * showhide，show或者hide取其一，需要显示loading时，选择show，需要隐藏loading时选择hide，默认show
 
 ##如何使用
-* 首先需要在页面中引入jquery的js文件和插件的js文件，jquery文件一定要在插件文件之前，文件路径根据自己的文件目录更改：
+* 首先需要在页面中引入jquery的js文件和插件的js文件，jquery版本自行选择，版本最好不要过低，jquery文件一定要在插件文件之前，文件路径根据自己的文件目录更改：
 ```html
 <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
 <script type="text/javascript" src="js/loading.js"></script>
